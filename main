@@ -11,7 +11,7 @@ cout<<"\nEnter your name: ";
 cin>>name;
 cout<<"\nEnter your surname: ";
 cin>>surname;
---------------------------------------------------------
+cout<<"--------------------------------------------------------";
 
 cout<<"\n\nYour student number is "<<studentno;
 cout<<"\nYour name is "<<name;
