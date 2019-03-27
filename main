@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+
+int main(void){
+
+int studentno;
+char name, surname;
+cout<<"Enter your student number: ";
+cin>>studentno;
+cout<<"\nEnter your name: ";
+cin>>name;
+cout<<"\nEnter your surname: ";
+cin>>surname;
+--------------------------------------------------------
+
+cout<<"\n\nYour student number is "<<studentno;
+cout<<"\nYour name is "<<name;
+cout<<"\nYour surname is "<<surname;
+
+
+cin.ignore();
+cin.get();
+return 0;
+}
